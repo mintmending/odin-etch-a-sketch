@@ -1,0 +1,18 @@
+body {
+    background-color: pink;
+}
+
+.board {
+    margin: 0 auto;
+    width: 840px;
+    height: 840px;
+    background-color: white;
+    display: flex;
+}
+
+div {
+    width: calc(840px/16);
+    height: calc(840px/16);
+    background-color: black;
+    flex-flow: row wrap;
+}
