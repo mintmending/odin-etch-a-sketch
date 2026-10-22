@@ -24,10 +24,11 @@ let mouseDown = false;
 
 board.addEventListener("mousedown", (event) => {
     mouseDown = true;
+    event.preventDefault();
     event.target.classList.add("etched");
 });
 
-board.addEventListener("mouseup", (event) => {
+document.body.addEventListener("mouseup", (event) => {
     mouseDown = false;
 });
 
