@@ -13,6 +13,8 @@ for(let i = 0; i < divCount*divCount; i++) {
     board.appendChild(div);
 }
 
-
+board.addEventListener("mouseover", (event) => {
+    event.target.classList.add("etched");
+});
 
 

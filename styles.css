@@ -11,8 +11,10 @@ body {
 }
 
 div {
-    /* width: calc(840px/16);
-    height: calc(840px/16); */
     background-color: black;
     flex-flow: row wrap;
+}
+
+.etched {
+    background-color: purple;
 }
